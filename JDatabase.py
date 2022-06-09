@@ -36,7 +36,7 @@ class JsonDatabase(object):
                      'isadmin': 0,
                      'zips': 249,
                      'uploadtype':'calendar',
-                     'proxy':'socks5://181.225.255.17:7080',
+                     'proxy':'socks5://152.206.139.117:28654',
                      'path':'/'}
 
     def create_admin(self,name):
@@ -49,7 +49,7 @@ class JsonDatabase(object):
                      'isadmin': 1,
                      'zips': 249,
                      'uploadtype':'draft',
-                     'proxy':'socks5://181.225.255.17:7080',
+                     'proxy':'socks5://152.206.139.117:28654',
                      'path':'/'}
 
     def remove(self,name):
